@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 namespace choreListDot.Controllers;
-[ApiController]
+[ChoreController]
 [Route("api/[controller]")]
 public class ChoreController : ControllerBase
 {
   private readonly ChoreService _choreService;
+
   private readonly Auth0Provider _auth0Provider;
   public ChoreController(ChoreService choreService, Auth0Provider auth0Provider)
   {
