@@ -9,6 +9,8 @@ global using Microsoft.AspNetCore.Mvc;
 global using System.Threading.Tasks;
 global using Dapper;
 global using CodeWorks.Utils;
+global using System.ComponentModel.DataAnnotations;
+
 
 // APPLICATION SPECIFIC
 global using choreListDot.Repositories;
